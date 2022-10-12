@@ -40,3 +40,19 @@ if(n3 > max)
 }
 Console.Write($"The maximum number of {n1}, {n2}, {n3} is a number {max}");
 */
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдает, является ли число четным (делится ли оно на два без остатка).
+
+/*
+Console.Write("Input a number ");
+int n = Convert.ToInt32(Console.ReadLine());
+int n1 = n % 2;
+if(n1 == 0)
+{
+    Console.WriteLine($"The number {n} is even");
+}
+else
+{
+    Console.WriteLine($"The number {n} is odd");
+}
+*/
