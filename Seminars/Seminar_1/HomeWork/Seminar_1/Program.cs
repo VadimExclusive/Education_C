@@ -1,6 +1,6 @@
 ﻿// Задача 2: Напишите программу, которая на вход принимает два числа и выдает, какое число большее, а какое меньшее.
 
-
+/*
 Console.Write("Input a first number: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a second number: ");
@@ -54,7 +54,7 @@ else
 {
     Console.WriteLine($"The number {n} is odd");
 }
-
+*/
 
 //Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все четные числа от 1 до N.
 
