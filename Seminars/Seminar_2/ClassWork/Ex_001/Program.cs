@@ -48,13 +48,22 @@ Console.WriteLine($"it turned out the number: {RemovingTheSecondDigit(randomThre
 
 // Задача_3: Напишите программу, которая принимает на вход число "n" и проверяет, кратно ли оно одновременно "a" и "b" (цельночисленные делители, так же задаются пользователем).
 
+/*
+bool DividerTheNumber(int num, int num1, int num2)
+{
+    if(num % num1 == 0 && num % num2 == 0)
+    return true;
+    return false;
+}
+
 Console.WriteLine("Input a number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input a divider A: ");
 int dividerA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input a divider B: ");
 int dividerB = Convert.ToInt32(Console.ReadLine());
-
-
+bool result = DividerTheNumber(number, dividerA, dividerB);
+Console.WriteLine($"Your result: {result}");
+*/
 
 
