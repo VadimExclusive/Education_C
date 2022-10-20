@@ -1,6 +1,6 @@
 ﻿// Задача 10: Напишите программу, которая принимает на вход трехзначное число и на выходе показывает вторую цифру этого числа.
 
-
+/*
 int Converting_Three_Digit_Number_To_The_Second (int threeDigit)
 {
     int result;
@@ -82,3 +82,4 @@ int what_is_this_day_like = The_number_what_is_this_day_like (number);
 
 if (what_is_this_day_like == -1)
     Console.WriteLine($"This day of the week does not exist");
+    */
