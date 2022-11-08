@@ -1,6 +1,6 @@
 ﻿// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 
-/*
+
 int[] CreateRandomArray(int size)
 {
     int[] array = new int [size];
@@ -33,11 +33,11 @@ int[] myArray = CreateRandomArray(size);
 ShowArray(myArray);
 int even = EvenNumbers(myArray);
 Console.WriteLine("Amount of even numbers is: " + even);
-*/
+
 
 // Задача 35: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 
-/*
+
 int[] CreateRandomArray(int size)
 {
     int[] array = new int [size];
@@ -70,11 +70,11 @@ int[] myArray = CreateRandomArray(size);
 ShowArray(myArray);
 int sum = SumNumbers(myArray);
 Console.WriteLine("Sum numbers is: " + sum);
-*/
+
 
 // Задача 36: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
-/*
+
 double[] CreateRandomArray(int size)
 {
     double[] array = new double [size];
@@ -137,4 +137,3 @@ double minNum = MinNumbers(myArray);
 Console.WriteLine($"Minimum array number is {minNum}");
 double difference = TheDifferenceBetweenTheElements(minNum, maxNum);
 Console.WriteLine($"The difference between the elements is: {difference}");
-*/
