@@ -5,7 +5,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-
+/*
 double[,] CreateRandom2dArray()
 {
     Console.Write("Input a number of rows: ");
@@ -43,8 +43,7 @@ void Show2dArray(double[,] array)
 
 double[,] myArray = CreateRandom2dArray();
 Show2dArray(myArray);
-
-
+*/
 
 // Задача 50: Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 
@@ -54,7 +53,7 @@ Show2dArray(myArray);
 // 8 4 2 4
 // 1 7 -> числа с такими индексами в массиве нет
 
-
+/*
 int[,] CreateRandom2dArray()
 {
     Console.Write("Input a number of rows: ");
@@ -106,7 +105,7 @@ void ReturnTheValueOfTheAcceptedIndexPosition(int[,] array)
 int[,] myArray = CreateRandom2dArray();
 Show2dArray(myArray);
 ReturnTheValueOfTheAcceptedIndexPosition(myArray);
-
+*/
 
 // Задача 52: Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце. (на выходу отдномерный массив) 
 
@@ -116,6 +115,7 @@ ReturnTheValueOfTheAcceptedIndexPosition(myArray);
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
+/*
 int[,] CreateRandom2dArray()
 {
     Console.Write("Input a number of rows: ");
@@ -168,4 +168,4 @@ double[] AverageNumber(int[,] array)
 int[,] array = CreateRandom2dArray();
 Show2dArray(array);
 ShowArray(AverageNumber(array));
-
+*/
